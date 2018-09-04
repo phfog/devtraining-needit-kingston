@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"511594c5-3d51-4d67-8c11-005bded2d748.item.due_date","label":"4➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"},{"name":"96c7848c-4ee1-49ec-ab49-3a1ca5358fe3.record","label":"4.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"511594c5-3d51-4d67-8c11-005bded2d748.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"ca45cbbb-17b4-41b9-96a3-4980e64d1c9c.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"943b2151-7dfc-4dca-80f0-65137c9aaab3.calculated_date","label":"2➛calculated_date","type":"glide_date","base_type":"glide_date"},{"name":"5af1a516-1dfa-48f3-8e08-dd771807a4d8.property_value","label":"1➛property_value","type":"string","base_type":"string"}]</label_cache>
+        <name>Find and Close Long Overdue NeedIT Tasks</name>
+        <parent_flow display_value="Find and Close Long Overdue NeedIT Tasks">d8cd831a4f902300ad3bf82ca310c706</parent_flow>
+        <remote_trigger_id/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-04 20:47:10</sys_created_on>
+        <sys_id>5acd9b924fd02300ad3bf82ca310c79b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Find and Close Long Overdue NeedIT Tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_5acd9b924fd02300ad3bf82ca310c79b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-04 20:47:10</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>
